@@ -1,0 +1,17 @@
+{
+   "name": "shodadev/pterodactyl-client",
+   "description": "A SDK to interact with the Pterodactyl Client API",
+   "type": "library",
+   "keywords": ["pterodactyl", "pterodactylclient", "php"],
+   "homepage": "https://paul-schacher.de",
+   "require": {
+      "php": ">=8.0.0",
+      "guzzlehttp/guzzle": "^7.0"
+   },
+   "autoload": {
+      "psr-4": {
+         "shodadev\\PterodactylClient\\": "src/"
+      }
+   },
+   "prefer-stable": true
+}
